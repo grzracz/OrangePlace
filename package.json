@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "compile": "bash ./scripts/compile.sh",
+    "deploy": "yarn compile && bash ./scripts/deploy.sh",
+    "call": "bash ./scripts/call.sh"
+  },
+  "dependencies": {
+    "@algorandfoundation/tealscript": "^0.105.5",
+    "algosdk": "^3.0.0"
+  }
+}
